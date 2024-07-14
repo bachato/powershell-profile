@@ -321,6 +321,9 @@ if (Get-Command zoxide -ErrorAction SilentlyContinue) {
     }
 }
 
+## Load fastfetch as last step
+fastfetch
+
 # Help Function
 function Show-Help {
     @"
